@@ -9,6 +9,7 @@ local function is_protocol(path)
     return type(path) == 'string' and (path:find('^%a[%w.+-]-://') ~= nil or path:find('^%a[%w.+-]-:%?') ~= nil)
 end
 
+
 local function fix_avsync()
     local paused = mp.get_property_bool("pause")
     msg.info("fix A/V sync.")
