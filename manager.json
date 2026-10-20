@@ -59,7 +59,7 @@
   },
   {
     "git":"https://github.com/christoph-heinrich/mpv-quality-menu",
-    "whitelist":"qualityu%-menu%.lua$",
+    "whitelist":"quality%-menu%.lua$",
     "dest":"~~/scripts"
   },
   {
